@@ -1,0 +1,44 @@
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 32px;
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#canvas {
+  width: 1200px;
+  height: 600px;
+  background-color: #efefef;
+  margin: 0px auto;
+  display: block;
+}
+
+#counter, #messages {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 5px;
+  line-height: 24px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+#moves, #neurons {
+  width: 100%;
+  max-width: 1200px;
+  margin: 10px auto;
+  font-size: 18px;
+  font-family: monospace;
+  background-color: #efefef;
+  padding: 10px;
+}
