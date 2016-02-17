@@ -34,8 +34,6 @@ The algorithm navigates through the map while **taking the best actions possible
 
 **So, how is this machine learning and how does it work ?**
 
-&nbsp;
-
 Each of the neurons action-values are registered in a JSON array corresponding to each neuron like this:
 
 `{id: *The neuron's id*, empty: *Value if the case is empty*, enemy: *Value if there is an enemy*, treasure: *Value if there is the treasure*}'
@@ -45,5 +43,7 @@ At the beginning of the program and as you can see in the file **data.js**, all 
 To simplify it: if there is an enemy is the case and the value is -1, the program doesn't know what happens so it just goes in and dies. Then it saves the value as 0 because if's the worst action to do. **That way, the program learned itself what happened when you go right into an enemy**, and it just pretty luch learns everything like that
 
 That's why, when you launch it, if just suicides into the enemy 4 times and then dodges it everytime after
+
+&nbsp;
 
 **If you have knowlegde on the subject and have a comment to make about this project don't hesitate, I was just doing this to try a little bit but I would love to learn more about it and learn the good practices of the field :)**
